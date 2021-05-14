@@ -1,0 +1,33 @@
+<head>
+<meta http-equiv="Content-Language" content="hu" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Pizza rendelés</title>
+<style type="text/css">
+.style1 {
+                margin-left: 40px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>PIZZA RENDELÉS</h1>
+<p>Vevő adatai</p>
+<p class="style1">Név:<input> Vezetéknév, Keresztnév</p>
+<p class="style1">Telefon:<input></p>
+<p><label>Pizza mérete:</p>
+   <p> <input type="radio">kicsi
+    <p><input type="radio">nagy</label></p>
+<p>Feltétek</p>
+<p><label><input type="checkbox">sonka<label>
+        <p><label><input type="checkbox">sajt<label>
+            <p><label><input type="checkbox">gomba<label></label></p>
+<p>Mennyiség: <input></p>
+<p>Kért szállítási idő: <input></p>
+<p>Egyéb kívánságok: <textarea></textarea></p>
+
+<button>visszaállítás</button>     <button>elküldés</button>
+
+</body>
+
+</html>
